@@ -184,10 +184,11 @@
             padding: 60px;
         }
 
-        .box2 {
+        .input-box {
             background-color: white;
             width: 530px;
             height: 60px;
+            border: none;
             border-radius: 60px;
             display: flex;
             align-items: center;
@@ -196,16 +197,10 @@
             gap: 12px;
         }
 
-        .box2 img {
+        .input-box img {
             width: 24px;
             height: 24px;
             padding-left: 24px;
-        }
-
-        .box2 span {
-            flex: 1;
-            color: #767676;
-            font-size: 14px;
         }
 
         .hero-image1 {
@@ -350,9 +345,9 @@
                         Lorem Ipsum has been the industry's standard dummy text 
                     </p>
                 </div>
-                <div class="box2">
+                <div class="input-box">
                     <img src="./mail.svg" alt="">
-                    <span>Enter your e-mail address</span>
+                    <input id="fieldInput" class="input-box" type="text" placeholder="Enter your e-mail address">
                     <button class="btn">Subscribe</button>
                 </div>
             </div>
