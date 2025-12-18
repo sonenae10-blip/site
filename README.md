@@ -14,7 +14,7 @@ Static Web Landing Page – Publishing Project</h1>
 
 <strong>🔗 배포 URL</strong>
 https://sonenae10-blip.github.io/site/
-<img width="1376" height="882" alt="image" src="https://github.com/user-attachments/assets/fe108e6a-f1c5-4c04-9368-d14634f7ba61" />
+<img width="1695" height="868" alt="image" src="https://github.com/user-attachments/assets/305105c3-dca8-4e38-8dff-6bd1f701a557" />
 <hr />
 
 <h2>2. 화면 구성 및 사용자 흐름(UX Flow)</h2>
