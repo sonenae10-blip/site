@@ -277,6 +277,133 @@
             justify-content: center;
             align-items: center;
         }
+
+        @media (max-width: 768px) {
+            header{
+                height: 80px;
+                padding: 0 20px;
+                justify-content: space-between;
+            }
+
+            main{
+                padding-top: 80px;
+            }
+
+            .hero1, .hero2{
+                flex-direction: column;
+                gap: 24px;
+                padding: 30px 20px;
+                box-sizing: border-box;
+                text-align: center;
+            }
+
+            .hero-text1, .hero-text2{
+                max-width: 100%;
+            }
+
+            .hlorem1{
+                width: 100%;
+                height: auto;
+                font-size: 28px;
+                line-height: 1.2;
+            }
+
+            .lorem1{
+                width: 100%;
+                height: auto;
+                margin: 12px auto 20px;
+            }
+
+            .hero-image1 img{
+                width: 260px;
+                max-width: 90vw;
+                height: auto;
+            }
+
+            .hero-image2 img{
+                width: 100%;
+                max-width: 520px;
+                height: auto;
+                box-shadow: 14px 14px 0 rgba(0, 0, 0, 0.15);
+            }
+
+            .hlorem2{
+                width: 100%;
+                height: auto;
+                font-size: 22px;
+                line-height: 1.3;
+                justify-content: center;
+            }
+
+            .hdummy{
+                width: 100%;
+                height: auto;
+                font-size: 26px;
+                text-align: center;
+            }
+
+            .dummy, .dummy2{
+                width: 100%;
+                height: auto;
+                text-align: center;
+                display: block;
+            }
+
+            .hero-image3{
+                flex-direction: column;
+                gap: 18px;
+                width: 100%;
+            }
+
+            .hero-image3 img{
+                width: 100%;
+                max-width: 520px;
+                height: auto;
+                box-shadow: 14px 14px 0 rgba(0, 0, 0, 0.15);
+            }
+
+            .hero-text4{
+                flex-direction: column;
+                gap: 18px;
+                padding: 0 20px;
+                text-align: center;
+            }
+
+            .box{
+                width: calc(100% - 40px);
+                height: auto;
+                margin: 20px auto 0;
+                padding: 28px 20px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 18px;
+            }
+
+            .sub1{
+                width: 100%;
+                height: auto;
+                font-size: 24px;
+                line-height: 1.2;
+            }
+
+            .sub2{
+                width: 100%;
+                height: auto;
+            }
+
+            .input-box{
+                width: 100%;
+                height: 52px;
+            }
+
+            footer{
+                padding: 20px;
+                height: auto;
+                flex-direction: column;
+                gap: 14px;
+            }
+}
+
     </style>
 </head>
 <body>
@@ -368,7 +495,7 @@
                     <img class="mail-icon" src="./mail.svg" alt="">
                     <input id="fieldInput" class="input" type="email" placeholder="Enter your e-mail address">
                     <button class="btn">Subscribe</button>
-                </div>
+                </div> 
             </div>
         </section>
 
