@@ -1,4 +1,4 @@
-<h1>웹 랜딩 페이지 퍼블리싱 프로젝트
+<h1>웹 랜딩 페이지 퍼블리싱 프로젝트<br>
 Static Web Landing Page – Publishing Project</h1>
 
 <h2>1. 프로젝트 개요</h2>
