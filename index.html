@@ -202,10 +202,24 @@
             gap: 12px;
         }
 
-        .input-box img {
+        .mail-icon {
             width: 24px;
             height: 24px;
-            padding-left: 24px;
+            margin-left: 24px;
+        }
+
+        .input-box .input {
+            flex: 1;
+            height: 100%;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #111;
+            font-size: 14px;
+        }
+
+        .input-box .input::placeholder {
+            color: #9aa4af;
         }
 
         .hero-image1 {
@@ -351,8 +365,8 @@
                     </p>
                 </div>
                 <div class="input-box">
-                    <img src="./mail.svg" alt="">
-                    <input id="fieldInput" class="input-box" type="text" placeholder="Enter your e-mail address">
+                    <img class="mail-icon" src="./mail.svg" alt="">
+                    <input id="fieldInput" class="input" type="email" placeholder="Enter your e-mail address">
                     <button class="btn">Subscribe</button>
                 </div>
             </div>
