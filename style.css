@@ -155,9 +155,16 @@ main {
     font-weight: 600; 
 }
 
+.gallery-footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 950px;
+}
+
 .gallery-text {
-    width: 750px;
-    height: 70px;
+    flex: 1;             
+    margin: 0; 
 }
 
 .hero-image {
@@ -284,27 +291,27 @@ footer {
         justify-content: space-between;
     }
 
-    main {
-        padding-top: 80px;
-    }
-
     .logo img {
         width: 90px;
     }
 
-    .nav {
+    main {
+        padding-top: 80px;
+    }
+
+    nav {
         gap: 0;
         font-size: 0;
         width: 28px;
         justify-content: flex-end;
     }
 
-    header .nav a,
-    header .nav .btn {
+    header nav a,
+    header nav .btn {
         display: none;
     }
 
-    header .nav::after {
+    header nav::after {
         content: "";
         width: 24px;
         height: 24px;
@@ -319,28 +326,161 @@ footer {
         flex-direction: column;
         gap: 18px;
         padding: 28px 20px 10px;
+        box-sizing: border-box;
         text-align: center;
     }
 
+    .hero-text {
+        max-width: 360px;
+        width: 100%;
+    }
+
     .hero-title {
+        width: 100%;
         font-size: 24px;
+        line-height: 1.25;
+        margin: 0;
     }
 
     .hero-desc {
+        width: 100%;
         font-size: 13px;
+        line-height: 1.6;
+        margin: 14px 0 18px;
+    }
+
+    .hero .btn {
+        width: 120px;
+        height: 40px;
+        padding: 0;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 240px;
+        max-width: 80vw;
+        height: auto;
+        border: 8px solid #fff;
+        border-radius: 18px;
+        box-sizing: border-box;
+        transform: rotate(-10deg);
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 18px;
+        padding: 30px 20px 0;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        border-radius: 18px;
+        box-shadow: 14px 14px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .about-title {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.35;
+        text-align: left;
+        margin: 0 0 10px;
+    }
+
+    .gallery {
+        padding: 48px 20px;
+        gap: 28px;
+    }
+
+    .gallery-title {
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .gallery-desc {
+        width: 100%;
+        font-size: 14px;
+        margin: 12px 0 0;
+        text-align: center;
     }
 
     .gallery-images {
         flex-direction: column;
         gap: 18px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .gallery-images img {
+        width: 100%;
+        max-width: 520px;
+        height: auto;
+        border-radius: 18px;
+        box-shadow: 14px 14px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .gallery-footer {
+        width: 100%;
+        flex-direction: column;
+        gap: 18px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .gallery-text {
+        width: 100%;
+        line-height: 1.6;
     }
 
     .subscribe-box {
-        width: calc(100% - 40px);
+        width: 100%;
+        max-width: 520px;
         height: auto;
         padding: 28px 20px;
         flex-direction: column;
+        align-items: flex-start;
         gap: 18px;
+    }
+
+    .subscribe-title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .subscribe-desc {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+        margin: 10px 0 0;
+    }
+
+    .input-box {
+        width: 100%;
+        height: 52px;
+    }
+
+    .bg-section {
+        height: 200px;
     }
 
     footer {
@@ -348,5 +488,21 @@ footer {
         height: auto;
         flex-direction: column;
         gap: 14px;
+    }
+
+    .sns-icon {
+        width: 40px;
+        height: 40px; 
+    }
+
+    footer nav {
+        display: flex;
+        gap: 12px;
+        font-size: 16px; 
+        width: auto;
+    }
+
+    footer nav::after {
+        content: none;
     }
 }
