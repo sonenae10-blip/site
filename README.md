@@ -20,37 +20,29 @@ https://sonenae10-blip.github.io/site/
 <h2>2. 화면 구성 및 사용자 흐름(UX Flow)</h2>
 1. Header 영역
 
-고정 헤더(Fixed Header) 구조를 적용하여 스크롤 시에도 메뉴 접근성을 유지
+header에 fixed 헤더를 적용해 스크롤 시에도 메뉴 접근성을 유지합니다.
 
-Home / About / Support / Download 메뉴를 가로 정렬하여 기본적인 서비스 네비게이션 구조 구현
+상단 네비게이션은 nav.nav로 구성하고, 주요 CTA는 공통 버튼 클래스 .btn으로 통일했습니다.<br><br>
+2. Hero 섹션
 
-버튼형 CTA를 포함하여 주요 행동을 상단에서 바로 유도<br><br>
-2. 메인 비주얼 섹션 (Hero Section)
+메인 비주얼은 .hero 섹션에서 텍스트(.hero-text) 와 이미지(.hero-image) 를 병렬 배치했습니다.
 
-큰 타이틀 텍스트와 서브 설명 문구를 배치하여 페이지의 핵심 메시지를 즉각적으로 전달
+제목은 .hero-hlorem, 설명은 .hero-lorem으로 위계를 분리했습니다.<br><br>
+3. About 섹션
 
-이미지와 텍스트를 병렬 배치하여 시각적 균형을 고려한 레이아웃 구성
+소개 영역은 .about 섹션으로 구성하고, 이미지(.about-image)와 텍스트(.about-text)를 나란히 배치했습니다.
 
-“Learn More” 버튼을 통해 다음 콘텐츠로 자연스럽게 유도<br><br>
-3. 콘텐츠 소개 섹션
+제목은 .about-hlorem, 본문은 .about-lorem으로 구성했습니다.<br><br>
+4. Gallery / Subscribe
 
-이미지 카드 형태의 레이아웃을 활용해 정보 단위를 시각적으로 구분
+이미지 갤러리는 .gallery-images로 그룹화하고, 하단 설명+버튼은 .gallery-footer로 분리했습니다.
 
-이미지 간 간격과 정렬을 통일하여 전체 페이지의 일관성 유지
-
-텍스트 강조(span)와 컬러 포인트를 사용해 핵심 키워드 가독성 강화<br><br>
-4. 구독(Subscribe) 섹션
-
-이메일 입력 폼과 CTA 버튼을 포함한 구독 유도 영역 구성
-
-배경 색상과 카드 스타일을 분리하여 페이지 내 시각적 전환 지점 역할 수행
-
-실제 서비스 확장을 고려한 폼 UI 구조 설계<br><br>
+구독 영역은 .subscribe-box 카드 형태로 구성했으며, 입력 UI는 .input-box 안에 .mail-icon + .input + .btn로 조합했습니다.<br><br>
 5. Footer 영역
 
 로고 및 저작권 문구 배치
 
-페이지 마무리 영역으로서 서비스 형태의 완성도 확보)<br><br>
+페이지 마무리 영역으로서 서비스 형태의 완성도를 확보했습니다.<br><br>
 <hr />
 
 <h2>3. 구현 포인트</h2>
