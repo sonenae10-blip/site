@@ -36,8 +36,8 @@ Reset CSS 적용으로 브라우저 간 스타일 차이 최소화
 
 형상 관리 및 코드 이력 관리
 
-GitHub Pages를 통한 정적 사이트 배포<br><br>
-
+GitHub Pages를 통한 정적 사이트 배포
+<hr />
 
 <h2>3. 폴더 구조</h2>
 site/<br>
