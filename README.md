@@ -35,12 +35,10 @@ header에 fixed 헤더를 적용해 스크롤 시에도 메뉴 접근성을 유�
 제목은 .about-hlorem, 본문은 .about-lorem으로 구성했습니다.<br><br>
 4. Gallery / Subscribe
 
-이미지 갤러리는 .gallery-images로 그룹화하고, 하단 설명+버튼은 .gallery-footer로 분리했습니다.
+이미지는 .gallery-images로 그룹화하고, 하단 설명+버튼은 .gallery-footer로 분리했습니다.
 
 구독 영역은 .subscribe-box 카드 형태로 구성했으며, 입력 UI는 .input-box 안에 .mail-icon + .input + .btn로 조합했습니다.<br><br>
 5. Footer 영역
-
-로고 및 저작권 문구 배치
 
 페이지 마무리 영역으로서 서비스 형태의 완성도를 확보했습니다.<br><br>
 <hr />
